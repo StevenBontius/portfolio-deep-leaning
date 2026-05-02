@@ -1,3 +1,7 @@
+---
+layout: home
+author_profile: true
+---
 # Welcome to My Data Science Portfolio
 
 This portfolio contains a summary of my work, including machine learning exercises, a hackathon project, and critical reflections.
