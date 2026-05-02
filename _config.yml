@@ -1,17 +1,17 @@
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-include-cache
 
 title: "Steven Bontius"
 subtitle: "Deep Learning Portfolio"
-description: "HAN University - Deep Learning Course"
+description: "Master Applied Data Science - Deep Learning"
+minimal_mistakes_skin: "dark"
+
 author:
   name: "Steven Bontius"
-  bio: "Data science student at HAN University"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/StevenBontius/"
-
-minimal_mistakes_skin: "dark" 
+      url: "https://github.com/StevenBontius"
