@@ -19,7 +19,7 @@ $(WHEEL):
 	uv build
 
 # Build docker image
-docker: $(WHEEL) $(MODEL) $(TOKENIZER)
+docker: $(WHEEL) $(MODEL) $(TOKENIZER) 
 	docker build -t $(IMAGE_NAME) .
 
 # Run container
