@@ -14,7 +14,8 @@ dependencies = [
     "requests>=2.32.5",
     "fastapi",
     "beautifulsoup4>=4.12.3",
-    "uvicorn"
+    "uvicorn",
+    "pytest>=9.0.3",
 ]
 readme = "README.md"
 requires-python = ">= 3.10"
@@ -41,3 +42,8 @@ allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/slanggen", "backend"]
+
+[tool.pytest.ini_options]
+markers = [
+    "api: tests for the API endpoints",
+]
